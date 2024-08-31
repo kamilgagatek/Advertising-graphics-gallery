@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto 45px auto 45px;
+}
+#undo-block {
+    height: 60px;
+    width: 100%;
+}
+#undo-block  a {
+    padding: 5px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin: 10px;
+}
+img {
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+}
+.description {
+    height: 150px;
+    text-align: center;
+}
+.text {
+    font-size: 18px;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+}
+#undo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 35px;
+    width: 35px;
+}
